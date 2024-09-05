@@ -107,7 +107,7 @@ WebGL build to enable browser-based gameplay. House and guild plot NFT integrati
 
 CONTRIBUTING
 -
-We appreciate all contributions. See  [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+We appreciate all contributions. See  [Contributions.md](Contributions.md) for details.
 
 
 LICENSE
