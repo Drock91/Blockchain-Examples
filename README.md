@@ -91,11 +91,10 @@ ARCHITECTURE
     - LINE 1752 Method DKPTOGOLDTRANSMUTE - used to transmute DKP XLS-20 token to in-game gold the playfab virtual currency. 
   - [xrplIntegration.js](xrplIntegration.js)
     -
-    - LINE 43 post/GetMarketPrice - gets best avail price of DKP from the XRP Ledger and sends to game server for processing their order
-    - LINE 106 post/dkpsend - sends the XLS-20 DKP token to their Xumm wallet and tells the game server to burn the appropriate amount of gold from their playfab account
-    - LINE 220 get/check-payload/:payloadId/:walletAddress - polling method from game servers to check if a payload has been completed and sends information to game server for processing
-    - LINE 520 async function checkTrustline - checks trustline of account
-    - LINE 543 post/balance - not in use anymore we used to use this to check their balances
+    - GetMarketPrice - gets best avail price of DKP from the XRP Ledger and sends to game server for processing their order
+    - dkpsend - sends the XLS-20 DKP token to their Xumm wallet and tells the game server to burn the appropriate amount of gold from their playfab account
+    - check-payload/:payloadId/:walletAddress - polling method from game servers to check if a payload has been completed and sends information to game server for processing
+    
   
 
 
