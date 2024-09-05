@@ -89,7 +89,7 @@ ARCHITECTURE
     - LINE 1536 Method SubmitBlobToXRPL - used to submit a blob for processing in the XRPL
     - LINE 1728 Method CheckXummStatusAPP - used to poll our heroku app for the Xumm webhook callback. 
     - LINE 1752 Method DKPTOGOLDTRANSMUTE - used to transmute DKP XLS-20 token to in-game gold the playfab virtual currency. 
-  - [Index.js](Index.js)
+  - [xrplIntegration.js](xrplIntegration.js)
     -
     - LINE 43 post/GetMarketPrice - gets best avail price of DKP from the XRP Ledger and sends to game server for processing their order
     - LINE 106 post/dkpsend - sends the XLS-20 DKP token to their Xumm wallet and tells the game server to burn the appropriate amount of gold from their playfab account
@@ -112,7 +112,7 @@ We appreciate all contributions. See  [Contributions.md](Contributions.md) for d
 
 LICENSE
 -
-This project is licensed under the EULA License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the EULA License - see the [License.md](License.md) file for details.
 
 
 CONTACT
