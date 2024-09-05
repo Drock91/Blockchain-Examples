@@ -1,3 +1,5 @@
+[xrplintegration.js](xrplIntegration.js) contains blockchain code examples
+Below is the actual MMO metaverse that was developed
 # Code portfolio of DragonKill
 ## TABLE OF CONTENTS
 - [Overview](#overview)
@@ -59,7 +61,7 @@ ARCHITECTURE
 
   - [MovingObject.cs](MovingObject.cs) inheritted class from PlayerCharacter and Mob so they can speak to each other easily and share same qualities with polymorphism
 
-  - [MatchMaking.cs](MatchMaking.css) script for generating different matches with players in it on the server
+  - [MatchMaking.cs](MatchMaking.cs) script for generating different matches with players in it on the server
 
   - [Door.cs](Door.cs) script for opening networked doors
 
